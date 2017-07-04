@@ -1,0 +1,36 @@
+{
+  "buildFiles": [
+    "D:\\mywork\\stdio-code\\first\\app\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "D:\\mywork\\studio-sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\mywork\\stdio-code\\first\\app\\src\\main\\jni\\Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/mywork/stdio-code/first/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\mywork\\stdio-code\\first\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "hello-jni-release-x86_64": {
+      "buildCommand": "D:\\mywork\\studio-sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\mywork\\stdio-code\\first\\app\\src\\main\\jni\\Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/mywork/stdio-code/first/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\mywork\\stdio-code\\first\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/mywork/stdio-code/first/app/build/intermediates/ndkBuild/release/obj/local/x86_64/libhello-jni.so",
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "hello-jni",
+      "files": [
+        {
+          "src": "D:\\mywork\\stdio-code\\first\\app\\src\\main\\jni\\hello-jni.c",
+          "flags": "\"-gcc-toolchain\" \"D:/mywork/studio-sdk/ndk-bundle/build//../toolchains/x86_64-4.9/prebuilt/windows-x86_64\" \"-target\" \"x86_64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/mywork/stdio-code/first/app/src/main/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"D:/mywork/studio-sdk/ndk-bundle/build//../platforms/android-21/arch-x86_64/usr/include\""
+        },
+        {
+          "src": "D:\\mywork\\stdio-code\\first\\app\\src\\main\\jni\\hello.c",
+          "flags": "\"-gcc-toolchain\" \"D:/mywork/studio-sdk/ndk-bundle/build//../toolchains/x86_64-4.9/prebuilt/windows-x86_64\" \"-target\" \"x86_64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/mywork/stdio-code/first/app/src/main/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"D:/mywork/studio-sdk/ndk-bundle/build//../platforms/android-21/arch-x86_64/usr/include\""
+        }
+      ],
+      "output": "D:\\mywork\\stdio-code\\first\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86_64\\libhello-jni.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86_64": {
+      "cCompilerExecutable": "D:\\mywork\\studio-sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
